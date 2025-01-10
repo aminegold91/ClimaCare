@@ -1,0 +1,120 @@
+body {
+    
+    
+  font-family: "Beiruti", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    
+    
+    
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.btn_watssap{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #60C974;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.btn_watssap a{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+.btn_watssap a i{
+  font-size: 40px;
+  color: #fff;
+}
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header img{
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.services h2, .booking h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-right: 5px solid #007bff;
+}
+
+form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+
+.box{
+  width: 1200px;
+  height: 720px;
+  background: skyblue;
+  
+}
