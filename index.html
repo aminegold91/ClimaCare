@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Yasi.png">
+    
+    <meta property="og:image" content="
+    
+    Ya.jpg
+    ">
+<meta property="og:image:width" content="1200">
+<meta property="og:height" content="720">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Cairo+Play:wght@200..1000&family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+    <title> ClimaCare </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body dir="rtl">
+    <header>
+        <div class="container">
+            <h1> ClimaCare </h1>
+            <img src="Yassin.png" width="80px" alt="">
+            <p>صيانة احترافية لجميع أنواع المكيفات</p>
+        </div>
+    </header>
+    
+    <div class="btn_watssap">
+     
+       <a href="https://api.whatsapp.com/send?phone=212767576688">
+         <i class='bx bxl-whatsapp'></i>
+       </a>
+
+    </div>
+    
+    <main>
+        <section class="services">
+            <h2>خدماتنا</h2>
+            <ul>
+                <li>صيانة المكيفات المنزلية</li>
+                <li>تنظيف المكيفات</li>
+                <li>إصلاح الأعطال التقنية</li>
+            </ul>
+        </section>
+
+        <section class="booking">
+            <h2>احجز موعدًا</h2>
+            <form id="bookingForm">
+                <label for="name">الاسم الكامل</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">رقم الهاتف</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="address">العنوان</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="type">نوع المكيف</label>
+                <select id="type" name="type">
+                    <option value="منزلي">منزلي</option>
+                    <option value="مركزي">مركزي</option>
+                </select>
+
+                <label for="problem">وصف المشكلة</label>
+                <textarea id="problem" name="problem" rows="4" required></textarea>
+
+                <label for="date">اختيار التاريخ</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="submit">إرسال الطلب</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p dir="rtl"> 
+        جميع الحقوق محفوظة
+        © 2025
+        <br> خدمات  
+        
+        <bdi>ClimaCare</bdi>
+      
+        
+        </p>
+    </footer>
+
+    <script src="main.js"> </script>
+</body>
+</html>
