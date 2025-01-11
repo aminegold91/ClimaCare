@@ -12,7 +12,7 @@ document.getElementById("bookingForm").addEventListener("submit", function(event
       };
   
       // إرسال البيانات إلى Google Sheets
-      fetch("AKfycbzN5Mrc_PtjAOZtkZycge3PNng9i91OhjzXitSK14DgaTw6G0sgD8Rmpt5xOi_rWHC2", {
+      fetch("https://script.google.com/macros/s/AKfycbzN5Mrc_PtjAOZtkZycge3PNng9i91OhjzXitSK14DgaTw6G0sgD8Rmpt5xOi_rWHC2/exec", {
           method: "POST",
           body: JSON.stringify(formData),
           headers: {
